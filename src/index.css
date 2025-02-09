@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+.font-inter {
+  font-family: 'Inter Variable', system-ui, sans-serif;
+}
+
+.font-outfit {
+  font-family: 'Outfit Variable', system-ui, sans-serif;
+}
+
+.font-space-grotesk {
+  font-family: 'Space Grotesk Variable', system-ui, sans-serif;
+}
